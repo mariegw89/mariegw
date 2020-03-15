@@ -8,7 +8,7 @@ happy <- read.csv("diamonds.csv")
 semi <- happy$price[5:20] - 200 # assign a numeric vector to a value
 anniversary <- c("you","love","I") # create a character vector with 3 levels
 to_shawn <- cut(semi, c(520,1300,1400,Inf), labels = anniversary)
-head(to_shawn, n = 3) # display the first three strings
+head(to_shawn, n = 3)# display the first three strings
 ```
 
 ```
